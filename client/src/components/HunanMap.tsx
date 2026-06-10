@@ -67,7 +67,7 @@ const CHANGSHA_DEMO_POIS = h5Pois.filter((poi) => poi.city === '长沙');
 const TIANDITU_TOKEN = import.meta.env.VITE_TIANDITU_TOKEN ?? '';
 const TIANDITU_SUBDOMAINS = ['0', '1', '2', '3', '4', '5', '6', '7'];
 const FALLBACK_BASE_TILE_URL = 'https://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}';
-const MAP_SWITCH_ASSET_VERSION = '20260526-smooth-2';
+const MAP_SWITCH_ASSET_VERSION = '20260610-city-icons';
 const mapSwitchAssetUrl = (fileName: string) => `${assetPath(`assets/${fileName}`)}?v=${MAP_SWITCH_ASSET_VERSION}`;
 const MAP_SWITCH_PHOENIX_IMAGE_URL = mapSwitchAssetUrl('map-transition-phoenix-cutout.png');
 const MAP_SWITCH_SOFT_IMAGE_URL = mapSwitchAssetUrl('map-transition-soft-cutout.png');
